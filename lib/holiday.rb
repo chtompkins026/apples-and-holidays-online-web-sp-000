@@ -21,7 +21,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   
   holiday_hash.each do |k,v1| 
     k.each do |k2,v2|
-      return k2[1]if k2 == :fourth_of_july
+      return k2[1] if k2 == :fourth_of_july
     end 
   end 
   
