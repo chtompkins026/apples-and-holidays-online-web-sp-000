@@ -36,6 +36,7 @@ end
 def add_supply_to_memorial_day(holiday_hash, supply)
   # again, holiday_hash is the same as the ones above
   # add the second argument to the memorial day array
+  holiday_hash[:spring][:new_years][1] = supply
 
 end
 
